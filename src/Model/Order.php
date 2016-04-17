@@ -39,7 +39,7 @@ class Order
         foreach ($rules as $rule) {
             $condition = $rule->getCondition();
             $action = $rule->getAction();
-            $clonedOrder = clone $this;
+            $clonedOrder = clone unserialize(serialize($this));
             if ($condition->isEligible($clonedOrder)) {
                 $discount += $action->calculate($clonedOrder);
             }

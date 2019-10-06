@@ -1,5 +1,12 @@
 # THE NILE TECH TEST
 
+## IMPLEMENTATION NOTES
+
+I came across some old codes that I wrote as a tech test solution while I was applying a software engineer role for an ecommerce company few years back in 2016. I remember as it was one of the more interesting code kata amongst many tech test that I had done. It was meant to be a straight-forward 2 hours exercise solving what it looked like an easy little problem.
+
+https://www.stellalie.com/2019/10/06/design-pattern-rules-engine/
+
+
 ## PROBLEM
 
 The Nile wants to offer a wide variety of discounts to our customers.
